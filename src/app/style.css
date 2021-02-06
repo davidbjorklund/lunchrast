@@ -1,0 +1,29 @@
+.overview {
+	display: block;
+	position: fixed;
+	background-color: #283593;
+	z-index: 10000;
+	opacity: 1;
+	width: calc(0px + 100vw);
+	height: 100vh; }
+	.overview img {
+		position: relative;
+		text-align: center;
+		top: 50vh;
+		left: 50vw;
+		transform: translate(-50%, -50%);
+		width: 110px;
+		height: 110px;
+		z-index: 10001; }
+
+img, a {
+	-webkit-user-select: none;
+	/* Safari 3.1+ */
+	-moz-user-select: none;
+	/* Firefox 2+ */
+	-ms-user-select: none;
+	/* IE 10+ */
+	user-select: none;
+	/* Standard syntax */
+	user-drag: none;
+	-webkit-user-drag: none; }

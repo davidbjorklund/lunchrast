@@ -1,0 +1,246 @@
+#hero
+  height: calc(100vh - 70px)
+  .db-6
+    .text-section1
+      padding-top: calc(50vh - 35px - 322px / 2)
+      float: right
+      max-width: 500px
+      span
+        font-size: 35px
+        line-height: 65.2px
+        vertical-align: middle
+      a
+        margin-top: 30px
+      .p-big
+        font-size: 22px
+        font-weight: 600
+        line-height: 27px
+    .image-container
+      max-width: 500px
+      height: calc(100vh - 70px)
+      position: relative
+      img
+        max-width: 45vw
+        height: 322px
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+
+.icons
+  max-width: 100vw
+  overflow: none
+
+@media(max-width: 900px)
+  #section2
+    .sixth
+      display: none
+  #section3
+    .third
+      display: none
+
+@media(max-width: 1000px)
+  #footer
+    height: auto !important
+    padding: 50px 0
+    .rows
+      flex-wrap: wrap
+      .db-4
+        width: 100%
+        flex: 100%
+        padding: 20px 0
+        text-align: center !important
+
+@media(max-width: 500px)
+  .icons
+    display: none
+  .text-section2, .text-section3, .text-section4
+    &>*
+      text-align: left !important
+  #section2, #section3, #section4, #cta
+    .rows
+      max-width: calc(100vw - 40px) !important
+    padding-top: 110px !important
+  .mode-container
+    max-width: 95vw !important
+
+#section2
+  padding-top: 90px
+  position: relative
+  .icons
+    position: absolute
+    left: 0
+    top: 0
+    .first
+      position: absolute
+      transform: rotate(8deg)
+      top: 55px
+      left: 70px
+    .second
+      position: absolute
+      transform: rotate(-6deg)
+      top: 25px
+      left: calc(50vw - 300px)
+    .third
+      position: absolute
+      transform: rotate(11deg)
+      top: 32px
+      left: calc(50vw + 120px)
+    .fourth
+      position: absolute
+      transform: rotate(-7deg)
+      top: 112px
+      left: calc(100vw - 250px)
+    .fifth
+      position: absolute
+      transform: rotate(-6deg)
+      top: 275px
+      left: 210px
+    .sixth
+      position: absolute
+      transform: rotate(-3deg)
+      top: 220px
+      left: calc(50vw + 250px)
+#section3, #section4, #cta
+  position: relative
+  padding-top: 210px
+
+#section3
+  .icons
+    position: absolute
+    left: 0
+    top: 0
+    .first
+      position: absolute
+      transform: rotate(8deg)
+      top: 155px
+      left: calc(50vw - 260px)
+    .second
+      position: absolute
+      transform: rotate(3deg)
+      top: 335px
+      left: 170px
+    .third
+      position: absolute
+      transform: rotate(-5deg)
+      top: 420px
+      left: calc(50vw + 40px)
+    .fourth
+      position: absolute
+      transform: rotate(-7deg)
+      top: 272px
+      left: calc(100vw - 300px)
+
+.text-section2, .text-section3, .text-section4, .text-section5
+  h2
+    font-size: 36px
+    text-align: center
+  p
+    padding-top: 20px
+    text-align: center
+    margin: 0 auto
+    max-width: 550px
+    .bold
+      font-weight: 800
+      color: #14151c
+  .linkcontainer
+    padding-top: 30px
+    text-align: center
+    margin: 0 auto
+.mode-container
+  padding-top: 40px
+  width: 850px
+  max-width: 80vw
+  margin: 0 auto
+  img
+    width: 100%
+
+#footer
+  margin-top: 240px
+  background-color: #283593
+  height: 70px
+  width: 100vw
+  .rows
+    max-width: 100vw
+  .db-4
+    padding-top: calc(70px / 2 - 24px / 2)
+  .left
+    text-align: left
+  .mid
+    text-align: center
+  .right
+    text-align: right
+  .h5
+    text-transform: uppercase
+    color: #E8F0FE !important
+    font-weight: 400
+    font-size: 16px
+    line-height: 24px
+    letter-spacing: 2.5px
+    font-family: "Poppins", sans-serif
+    text-transform: uppercase
+    letter-spacing: 5px
+
+@media(max-width: 1250px)
+  #hero
+    min-height: 740px
+    .linkcontainer
+      padding-bottom: 50px
+    .text-section1
+      max-width: 700px
+      margin: 0 auto
+      padding-top: 60px
+      float: inherit
+      h5
+        font-size: 16px
+      p
+        font-size: 17px
+      h1
+        font-size: 38px
+        line-height: 50px
+        padding-top: 10px
+      a
+        font-size: 19px
+      &>*
+        text-align: center
+        margin: 0 auto
+      .image-container
+        padding-top: 30px
+        width: 500px
+        max-width: 85vw
+        height: calc(500 / 519 * 299)
+        max-height: calc(85vw / 519 * 299)
+        position: relative
+        img
+          width: 500
+          max-width: 80vw
+          height: calc(500 / 519 * 299)
+          max-height: calc(80vw / 519 * 299)
+          top: 0
+          transform: none
+      a
+        margin: 30px auto 0 auto
+
+@media(max-width: 500px)
+  .text-section1
+    .image-container
+      width: 200px
+      max-width: 85vw !important
+      height: calc(200px / 451 * 891)
+      max-height: calc(85vw / 451 * 891) !important
+      padding-top: 10px !important
+      img
+        width: 200px
+        max-width: 85vw !important
+        height: calc(200px / 451 * 891)
+        max-height: calc(85vw / 451 * 891) !important
+    h5
+      font-size: calc(16px / 500 * 100vw)
+    h1
+      font-size: calc(38px / 500 * 100vw)
+      line-height: calc(50px / 500 * 100vw)
+    p
+      padding-top: 10px
+      font-size: calc(17px / 500 * 100vw)
+    a
+      margin-top: 15px !important
+      font-size: calc(19px / 500 * 100vw)

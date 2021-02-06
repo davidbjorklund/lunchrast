@@ -1,0 +1,336 @@
+.favourites {
+	width: calc(100vw - 60px);
+	margin-left: 60px;
+	padding-left: 60px;
+	box-sizing: border-box;
+	background-color: #BDD8F7;
+	height: 100vh; }
+
+@media (max-width: 1100px) {
+	.favourites {
+		width: 100vw;
+		margin-left: 0;
+		padding-left: 0; }
+		.favourites .info h1 {
+			margin-left: 0;
+			padding-top: 100px;
+			text-align: center; }
+		.favourites .caption-big .heart {
+			top: 30px !important; } }
+
+@media (max-width: 755px) {
+	.favourites .caption-big {
+		margin: 10px 0 !important;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%); } }
+
+.favourites > * {
+	transition: all 0.2s ease; }
+
+.favourites-dark {
+	background-color: #2D2E37; }
+	.favourites-dark h1 {
+		color: #E8F0FE; }
+
+.info {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%); }
+
+.favourites {
+	overflow-y: auto;
+	max-width: 100vw; }
+	.favourites .captions {
+		padding-bottom: 30px;
+		height: 424.6px; }
+		.favourites .captions .noneExistsLight {
+			color: #14151C; }
+		.favourites .captions .noneExistsDark {
+			color: #E8F0FE; }
+		.favourites .captions .noneExistsLight,
+		.favourites .captions .noneExistsDark {
+			font-size: 21px;
+			margin-left: 15px;
+			padding-top: 15px; }
+			.favourites .captions .noneExistsLight .noneExistsLink,
+			.favourites .captions .noneExistsDark .noneExistsLink {
+				color: #2A76F6; }
+	.favourites h1 {
+		margin-left: 15px; }
+	.favourites .caption-big.light {
+		height: 424.6px;
+		width: 345px;
+		display: inline-block;
+		background-color: #ffffff;
+		float: left;
+		margin: 10px 15px;
+		border-radius: 4px;
+		position: relative;
+		padding-bottom: 30px; }
+		.favourites .caption-big.light a {
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			position: absolute; }
+		.favourites .caption-big.light > * {
+			user-select: auto; }
+		.favourites .caption-big.light h2 {
+			display: block;
+			padding-top: 21px;
+			margin-left: 21px;
+			font-size: 25px; }
+		.favourites .caption-big.light h4 {
+			display: block;
+			padding-top: 21px;
+			margin-left: 21px;
+			font-size: 15px; }
+		.favourites .caption-big.light .stars {
+			display: block;
+			margin-left: 21px;
+			padding-top: 5px; }
+			.favourites .caption-big.light .stars img {
+				margin: 0 1.8px;
+				height: 18px; }
+		.favourites .caption-big.light .address {
+			display: block;
+			max-height: 20px;
+			width: 330px;
+			padding-top: 5px;
+			margin-left: 21px;
+			line-height: 20px;
+			vertical-align: middle; }
+			.favourites .caption-big.light .address img {
+				display: inline-block;
+				float: left;
+				height: 20px;
+				margin-right: 5px;
+				line-height: 20px;
+				vertical-align: middle; }
+		.favourites .caption-big.light p {
+			display: block;
+			width: 330px;
+			max-width: 300px;
+			padding-top: 5px;
+			margin-left: 21px;
+			line-height: 20px;
+			vertical-align: middle; }
+		.favourites .caption-big.light .meals {
+			margin-left: 21px;
+			padding-top: 5px;
+			position: relative;
+			overflow-x: auto;
+			max-width: 330px;
+			width: 310px;
+			height: 134px;
+			white-space: nowrap;
+			overflow-y: hidden; }
+			.favourites .caption-big.light .meals #add {
+				position: relative;
+				cursor: default !important; }
+				.favourites .caption-big.light .meals #add img {
+					width: calc(27px * 1.1);
+					height: calc(20.25px * 1.1);
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -100%); }
+				.favourites .caption-big.light .meals #add h4 {
+					position: absolute;
+					padding: 0;
+					margin: 0;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, 50%); }
+			.favourites .caption-big.light .meals .meal {
+				display: inline-block;
+				width: 165px;
+				height: 124px;
+				background-color: #E8F0FE;
+				margin-right: 5px; }
+				.favourites .caption-big.light .meals .meal img {
+					max-height: 100%;
+					max-width: 100%;
+					height: 100%;
+					width: 100%;
+					object-fit: cover; }
+	.favourites .caption-big.dark {
+		width: 345px;
+		display: inline-block;
+		background-color: #283593;
+		height: 424.6px;
+		float: left;
+		margin: 10px 15px;
+		border-radius: 4px;
+		position: relative;
+		padding-bottom: 30px; }
+		.favourites .caption-big.dark a {
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			position: absolute; }
+		.favourites .caption-big.dark > * {
+			user-select: auto; }
+		.favourites .caption-big.dark h2 {
+			display: block;
+			padding-top: 21px;
+			margin-left: 21px;
+			font-size: 25px;
+			color: #E8F0FE; }
+		.favourites .caption-big.dark h4 {
+			display: block;
+			padding-top: 21px;
+			margin-left: 21px;
+			font-size: 15px;
+			color: #E8F0FE; }
+		.favourites .caption-big.dark .stars {
+			display: block;
+			margin-left: 21px;
+			padding-top: 5px; }
+			.favourites .caption-big.dark .stars img {
+				margin: 0 1.8px;
+				height: 18px; }
+		.favourites .caption-big.dark .address {
+			display: block;
+			max-height: 20px;
+			max-width: 300px;
+			padding-top: 5px;
+			margin-left: 21px;
+			line-height: 20px;
+			vertical-align: middle;
+			color: rgba(232, 240, 254, 0.8); }
+			.favourites .caption-big.dark .address img {
+				display: inline-block;
+				float: left;
+				height: 20px;
+				margin-right: 5px;
+				line-height: 20px;
+				vertical-align: middle; }
+		.favourites .caption-big.dark p {
+			display: block;
+			width: 330px;
+			max-width: 300px;
+			padding-top: 5px;
+			margin-left: 21px;
+			line-height: 20px;
+			vertical-align: middle;
+			color: rgba(232, 240, 254, 0.8); }
+		.favourites .caption-big.dark .meals {
+			margin-left: 21px;
+			padding-top: 5px;
+			position: relative;
+			overflow-x: auto;
+			max-width: 330px;
+			width: 310px;
+			height: 134px;
+			white-space: nowrap;
+			overflow-y: hidden; }
+			.favourites .caption-big.dark .meals #add {
+				position: relative;
+				cursor: default !important; }
+				.favourites .caption-big.dark .meals #add img {
+					width: calc(27px * 1.1);
+					height: calc(20.25px * 1.1);
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -100%); }
+				.favourites .caption-big.dark .meals #add h4 {
+					position: absolute;
+					padding: 0;
+					margin: 0;
+					top: 50%;
+					left: 50%;
+					color: #283593;
+					transform: translate(-50%, 50%); }
+			.favourites .caption-big.dark .meals .meal {
+				display: inline-block;
+				width: 165px;
+				height: 124px;
+				background-color: #E8F0FE;
+				margin-right: 5px; }
+				.favourites .caption-big.dark .meals .meal img {
+					max-height: 100%;
+					max-width: 100%;
+					height: 100%;
+					width: 100%;
+					object-fit: cover; }
+	.favourites .current-school {
+		position: absolute !important;
+		top: 10px !important;
+		right: 10px !important;
+		background-color: #FFFFFF;
+		z-index: 20000;
+		height: 30px;
+		text-align: center;
+		border: 2px solid rgba(0, 0, 0, 0.2);
+		z-index: 1000; }
+		.favourites .current-school h4 {
+			height: 30px;
+			border-radius: 2px;
+			margin: 0;
+			padding: 0;
+			line-height: 30px;
+			padding: 0 10px; }
+		.favourites .current-school img {
+			vertical-align: middle;
+			height: 18px;
+			mix-blend-mode: difference;
+			margin-left: 5px; }
+	.favourites .heart {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		width: 21.67px;
+		height: 20px;
+		cursor: pointer;
+		cursor: default; }
+		.favourites .heart img {
+			width: 100%;
+			height: 100%; }
+	.favourites .loadwrap {
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 100px; }
+	.favourites .load {
+		border-radius: 5px;
+		padding: 8px 40px;
+		background-color: #2975F6;
+		cursor: pointer;
+		margin: 0 auto;
+		min-width: 130px;
+		max-height: 36.8px; }
+		.favourites .load h4 {
+			color: #ffffff;
+			font-size: 17px;
+			text-align: center; }
+			.favourites .load h4 img {
+				height: 16px;
+				width: 16px; }
+	.favourites .failBanner {
+		position: absolute;
+		bottom: 15px;
+		right: 15px;
+		padding: 11px 47px 11px 47px;
+		background-color: darkred;
+		border-radius: 5px; }
+		.favourites .failBanner h4 {
+			color: #ffffff;
+			font-weight: 600;
+			font-size: 19px;
+			letter-spacing: 1.5px; }
+	.favourites .successBanner {
+		position: absolute;
+		bottom: 15px;
+		right: 15px;
+		padding: 11px 47px 11px 47px;
+		background-color: darkgreen;
+		border-radius: 5px; }
+		.favourites .successBanner h4 {
+			color: #ffffff;
+			font-weight: 600;
+			font-size: 19px;
+			letter-spacing: 1.5px; }
