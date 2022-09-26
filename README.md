@@ -1,5 +1,7 @@
 # lunchrast
-David Björklund
+Lunchrast is a web application made for the students of the Stockholm high school Värmdö Gymnasium. It is essentially a custom map that displays all the possible restaurants where they can eat their free lunch.
+
+The app is deployed and hosted at [lunchrast.nu](https://lunchrast.nu/).
 
 ## How To Run The App:
 ### 1) Install Node and npm (node packet manager)
