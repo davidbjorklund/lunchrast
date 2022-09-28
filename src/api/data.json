@@ -1,0 +1,324 @@
+{
+    "Bamses Pizzeria & Kebab": {
+      "namn": "Bamses Pizzeria",
+      "address": "Grafikvägen 1",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Restaurang Pasta Gudfadern har en omfattande meny med utsökt mat av färska pastarätter, sallader, soppor samt mängder av anti pasto misto.",
+      "lat": "59.297627",
+      "lng": "18.079476",
+      "rating": 3.6,
+      "meals": []
+    },
+    "Berliner Kebab": {
+      "namn": "Berliner Kebab",
+      "address": "Medborgarplatsen 3",
+      "sector": "Medborgarplatsen",
+      "description": "Under årets varmare dagar kan du njuta av riktigt god kebab på våran uteservering.",
+      "lat": "59.314587",
+      "lng": "18.071034",
+      "rating": 4.0,
+      "meals": []
+    },
+    "Cafeterian Värmdö Gymnasium": {
+      "namn": "Värmdö Gymnasium",
+      "address": "Simlångsvägen 26",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Vi serverar två varmrätter varje dag, men vi har också grillsmörgåsar, pajer & piroger. Här kan du även ta en fika eller värma mat i vår mikrovågsugn.",
+      "lat": "59.299716",
+      "lng": "18.076625",
+      "rating": 3.4,
+      "meals": [
+        {
+          "name": "Grillsmörgås",
+          "image": "grillsmörgås.jfif"
+        },
+        {
+          "name": "Paj",
+          "image": "paj.jfif"
+        },
+        {
+          "name": "Pirog",
+          "image": "pirog.jfif"
+        }
+      ]
+    },
+    "Chutney": {
+      "namn": "Chutney",
+      "address": "Katarina Bangata 19",
+      "sector": "Söder & Centrum",
+      "description": "Välkommen till Chutney, en av Stockholms första renodlade vegetariska restauranger som serverar framtidens mat!",
+      "lat": "59.312111",
+      "lng": "18.076352",
+      "rating": 3.9,
+      "meals": []
+    },
+    "Cicada": {
+      "namn": "Cicada",
+      "address": "Tjurhornsgränd 8",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Vi erbjuder kärleksfullt tillagad mat från grunden. Vi serverar bufféer, snittar, plockmat, varmrätter, smörrebröd, vegetariskt m.m.",
+      "lat": "59.294236",
+      "lng": "18.068261",
+      "rating": 4.6,
+      "meals": []
+    },
+    "Fresh Catering": {
+      "namn": "Fresh Catering",
+      "address": "Hornsgatan 1",
+      "sector": "Medborgarplatsen",
+      "description": "Här hittar du spännande menyer med inslag från alla världens hörn, riktiga klassiker och såväl kalla som varma alternativ.",
+      "lat": "59.3196298",
+      "lng": "18.070236",
+      "rating": 3.4,
+      "meals": []
+    },
+    "Gullmars Kebab": {
+      "namn": "Gullmars Kebab",
+      "address": "Gullmarsplan 3",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Kom in och upplev mat & kultur. Vi lagar mat med originella recept från Orienten. Här kan du välja på kött, kyckling, falafel samt hummus.",
+      "lat": "59.298527",
+      "lng": "18.080336",
+      "rating": 3.2,
+      "meals": []
+    },
+    "Hemköp": {
+      "namn": "Hemköp",
+      "address": "Gullmarsplan 4-6",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Välkommen till ombyggda och nyrenoverade Hemköp Gullmarsplan! Här hittar du en modern områdesbutik med generösa öppettider och allt du behöver.",
+      "lat": "59.298340",
+      "lng": "18.079100",
+      "rating": 3.7,
+      "meals": []
+    },
+    "Hermans": {
+      "namn": "Hermans",
+      "address": "Fjällgatan 23B",
+      "sector": "Söder & Centrum",
+      "description": "Vår fokus är att erbjuda ett tillgängligt alternativ för att upptäcka vegetarisk mat, som för många har uppfattats som tråkig eller smaklös.",
+      "lat": "59.317502",
+      "lng": "18.084021",
+      "rating": 3.8,
+      "meals": []
+    },
+    "ICA Supermarket": {
+      "namn": "ICA Supermarket",
+      "address": "Arenaslingan 1",
+      "sector": "Globen",
+      "description": "Välkommen till ICA Supermarket Globen. Vi fyller på butiken varje dag på med nya färskvaror, frukt och grönt och annat gott som förgyller din dag.",
+      "lat": "59.292191",
+      "lng": "18.082240",
+      "rating": 4.0,
+      "meals": []
+    },
+    "Ica Nära Årsta": {
+      "namn": "Ica Nära Årsta",
+      "address": "Sköntorpsvägen 27",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Välkommen till ICA Nära Årsta, din matbutik i Stockholm. Vi har allt du behöver för vardagsmat och fest – färskvaror, frukt och grönt, mejeri och chark.",
+      "lat": "59.297820",
+      "lng": "18.063010",
+      "rating": 3.9,
+      "meals": []
+    },
+    "Libanon grill & Meza": {
+      "namn": "Libanon grill & Meza",
+      "address": "Söderhallarna, 1 tr ned",
+      "sector": "Medborgarplatsen",
+      "description": "Vi är en liten restaurang med stor passion för libanesisk mat. Våra kunder säger ofta 'Ja Allah Sho Tayeb' vilket betyder 'Gud, Vad Gott!'",
+      "lat": "59.314633",
+      "lng": "18.070669",
+      "rating": 4.3,
+      "meals": []
+    },
+    "Mandarin Sea city": {
+      "namn": "Mandarin Sea city",
+      "address": "Hammarby allé 147",
+      "sector": "Hammarby Sjöstad",
+      "description": "Vi är en välrenoverad och prisbelönad restaurang belägen mitt på Sveavägen i centrala Stockholm med ett brett utbud av asiatiska rätter",
+      "lat": "59.303103",
+      "lng": "18.100672",
+      "rating": 4.4,
+      "meals": []
+    },
+    "Max Hammarby sjöstad": {
+      "namn": "Max Hammarby sjö.",
+      "address": "Lugnets allé 22",
+      "sector": "Hammarby Sjöstad",
+      "description": "Välkommen till MAX Hammarby Sjöstad, vi är Sveriges äldsta och mest omtyckta burgarkedja!",
+      "lat": "59.302106",
+      "lng": "18.103515",
+      "rating": 4.2,
+      "meals": []
+    },
+    "Medelhavs Deli": {
+      "namn": "Medelhavs Deli",
+      "address": "Söderhallarna, entréplan",
+      "sector": "Medborgarplatsen",
+      "description": "Medelhavs Deli är en turkisk restaurang på Södermalm som erbjuder Meze i många olika smaker och former.",
+      "lat": "59.314190",
+      "lng": "18.071120",
+      "rating": 3.8,
+      "meals": []
+    },
+    "New bowl center": {
+      "namn": "New bowl center",
+      "address": "Enskedehallen",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Välkommen till vår restaurang med utsikt över bowlingbanorna där man kan avnjuta mat. Vi erbjuder burgare, kaffe, te, mackor, bakverk och andra godsaker.",
+      "lat": "59.299867",
+      "lng": "18.079189",
+      "rating": 4.2,
+      "meals": []
+    },
+    "Pasta Gudfadern": {
+      "namn": "Pasta Gudfadern",
+      "address": "Söderhallarna, 1 tr ned",
+      "sector": "Medborgarplatsen",
+      "description": "Pasta Gudfadern är en restaurang belägen på Söderhallarna, i södra Stockholm. Hos oss får ni njuta av färska råvaror och måltider som skapas àla minute.",
+      "lat": "59.314370",
+      "lng": "18.070841",
+      "rating": 4.6,
+      "meals": []
+    },
+    "Riviera Pizzeria": {
+      "namn": "Riviera Pizzeria",
+      "address": "Gullmarsvägen 12",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Välkommna till Riviera Pizzeria, vi serverar goda och prisvärda pizzor. Vi har ett brett sortiment med pizzor av kvalitet.",
+      "lat": "59.298319",
+      "lng": "18.075591",
+      "rating": 4.3,
+      "meals": []
+    },
+    "Seven Eleven": {
+      "namn": "Seven Eleven",
+      "address": "Gullmarsplan 2",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Välkommen till Seven Eleven Gullmarsplan, här finns allting du kan behöva för en bra fika eller snabb lunch.",
+      "lat": "59.298697",
+      "lng": "18.079542",
+      "rating": 3.1,
+      "meals": []
+    },
+    "Srimoti": {
+      "namn": "Srimoti / Capital",
+      "address": "Sköntorpsvägen 80",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Välkommen till Srimoti i Årsta, vi är en indisk restaurang, med ett stort utbud av rätter som passar alla.",
+      "lat": "59.3000754",
+      "lng": "18.0570561",
+      "rating": 3.6,
+      "meals": []
+    },
+    "Stenugnsbageriet": {
+      "namn": "Stenugnsbageriet",
+      "address": "Gullmarsplan 4-6",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Välkommna till Stenugnsbageriet! Vi har allt från konditorivaror, färdiga sallader, smörgåsar, fikabröd och fantastiska matbröd.",
+      "lat": "59.298253",
+      "lng": "18.079150",
+      "rating": 3.4,
+      "meals": []
+    },
+    "Subway": {
+      "namn": "Subway",
+      "address": "Arenaslingan 3a",
+      "sector": "Globen",
+      "description": "Kom in till oss på Subway när du är sugen på något gott till lunch. Vi har ett stort urval av fräscha subs och sallader.",
+      "lat": "59.292162",
+      "lng": "18.082490",
+      "rating": 3.8,
+      "meals": []
+    },
+    "Sushi bar Nikko": {
+      "namn": "Sushi bar Nikko",
+      "address": "Gullmarsplan 4",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Liten sushirestaurang som ligger precis intill Systembolaget på Gullmarsplan. Vi serverar god sushi till bra priser.",
+      "lat": "59.298415",
+      "lng": "18.079050",
+      "rating": 3.2,
+      "meals": []
+    },
+    "Sushi Yama": {
+      "namn": "Sushi Yama",
+      "address": "Gullmarsplan 4",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "På det klassiska torget och hemtrevliga Gullmarsplan hittas Sushi Yama. Vi har sushi som är värd att komma tillbaka till.",
+      "lat": "59.298508",
+      "lng": "18.078975",
+      "rating": 3.3,
+      "meals": []
+    },
+    "Sushirullen": {
+      "namn": "Sushirullen",
+      "address": "Arenavägen 57",
+      "sector": "Globen",
+      "description": "Välkommna till Sushirullen, vi erbjuder schysst mat som kan ätas på språng utan att varken miljö eller den egna hälsan blir lidande.",
+      "lat": "59.292839",
+      "lng": "18.081590",
+      "rating": 3.7,
+      "meals": []
+    },
+    "Södermanna vegetariska": {
+      "namn": "Södermanna veg.",
+      "address": "Medborgarplatsen 3-5",
+      "sector": "Medborgarplatsen",
+      "description": "Välkommen till Södermanna vegetariska. Hos oss hittar du bara ovo-lacto vegetariska och veganska maträtter. Lagat på plats för bästa möjliga smakupplevelse.",
+      "lat": "59.314521",
+      "lng": "18.070498",
+      "rating": 4.2,
+      "meals": []
+    },
+    "Taco Bar": {
+      "namn": "Taco Bar",
+      "address": "Hammarby kaj 8A",
+      "sector": "Medborgarplatsen",
+      "description": "Välkommna till Tacobar i Hammarby Sjöstad, vi har fötterna på varsin sida av gränsen mellan Texas och Mexico. Här har vi prisvärd och god mat.",
+      "lat": "59.303213",
+      "lng": "18.082257",
+      "rating": 4.1,
+      "meals": []
+    },
+    "Trafiket": {
+      "namn": "Trafiket",
+      "address": "Johanneshovsvägen 3",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Välkommen till Trafiket, vi är ett kebab- och smörgåsställe vid Gullmarsplan som erbjuder många goda rätter.",
+      "lat": "59.298754",
+      "lng": "18.080264",
+      "rating": 3.7,
+      "meals": []
+    },
+    "Tullfritt": {
+      "namn": "Tullfritt",
+      "address": "Gullmarsplan 1",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Gatukök vid Gullmarsplan. Här serveras hamburgare och andra enklare rätter. Några sittplatser finns, inomhus och på sommaren en liten uteservering.",
+      "lat": "59.298680",
+      "lng": "18.079829",
+      "rating": 1.6,
+      "meals": []
+    },
+    "Viets kitchen": {
+      "namn": "Viets kitchen",
+      "address": "Söderhallarna, 1 tr ned",
+      "sector": "Medborgarplatsen",
+      "description": "Välkommen till Viets Kitchen, här hittar du orientaliska smaker av Vietnamn. Här finns allt från nudelsoppa och färska vårrullar till asiatisk sallad.",
+      "lat": "59.314737",
+      "lng": "18.070458",
+      "rating": 3.5,
+      "meals": []
+    },
+    "Årsta kvarterskrog": {
+      "namn": "Årsta kvarterskrog",
+      "address": "Gullmarsvägen 42C",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Välkommen till Årsta kvartetskrog, här finner du ett stort utbud utav goda rätter med hög kvalitet.",
+      "lat": "59.299030",
+      "lng": "18.071933",
+      "rating": 3.5
+    }
+  }
