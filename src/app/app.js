@@ -6,7 +6,7 @@ const App = () => {
     return (
         <div>
             <h1>App</h1>
-            <Map markers={Places()}/>
+            <Map markers={()=>Places()}/>
         </div>
     )
 }

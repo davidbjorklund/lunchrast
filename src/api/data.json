@@ -19,6 +19,16 @@
       "rating": 4.0,
       "meals": []
     },
+    "Bun Meat Bun": {
+      "namn": "Bun Meat Bun",
+      "address": "Medborgarplatsen 3",
+      "sector": "Medborgarplatsen",
+      "description": "Goda burgare i Söderhallarna.",
+      "lat": "59.314591",
+      "lng": "18.071031",
+      "rating": 4.0,
+      "meals": []
+    },
     "Cafeterian Värmdö Gymnasium": {
       "namn": "Värmdö Gymnasium",
       "address": "Simlångsvägen 26",
@@ -52,16 +62,6 @@
       "rating": 3.9,
       "meals": []
     },
-    "Cicada": {
-      "namn": "Cicada",
-      "address": "Tjurhornsgränd 8",
-      "sector": "Gullmarsplan & Årsta",
-      "description": "Vi erbjuder kärleksfullt tillagad mat från grunden. Vi serverar bufféer, snittar, plockmat, varmrätter, smörrebröd, vegetariskt m.m.",
-      "lat": "59.294236",
-      "lng": "18.068261",
-      "rating": 4.6,
-      "meals": []
-    },
     "Fresh Catering": {
       "namn": "Fresh Catering",
       "address": "Hornsgatan 1",
@@ -79,6 +79,16 @@
       "description": "Kom in och upplev mat & kultur. Vi lagar mat med originella recept från Orienten. Här kan du välja på kött, kyckling, falafel samt hummus.",
       "lat": "59.298527",
       "lng": "18.080336",
+      "rating": 3.2,
+      "meals": []
+    },
+    "Happie Hands": {
+      "namn": "Gullmars Kebab",
+      "address": "Gullmarsplan 8",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Välj mellan burgare, burito eller quesadillas. Här får du även pommes.",
+      "lat": "59.298527",
+      "lng": "18.080346",
       "rating": 3.2,
       "meals": []
     },
@@ -103,7 +113,7 @@
       "meals": []
     },
     "ICA Supermarket": {
-      "namn": "ICA Supermarket",
+      "namn": "ICA Supermarket Globen",
       "address": "Arenaslingan 1",
       "sector": "Globen",
       "description": "Välkommen till ICA Supermarket Globen. Vi fyller på butiken varje dag på med nya färskvaror, frukt och grönt och annat gott som förgyller din dag.",
@@ -162,16 +172,6 @@
       "rating": 3.8,
       "meals": []
     },
-    "New bowl center": {
-      "namn": "New bowl center",
-      "address": "Enskedehallen",
-      "sector": "Gullmarsplan & Årsta",
-      "description": "Välkommen till vår restaurang med utsikt över bowlingbanorna där man kan avnjuta mat. Vi erbjuder burgare, kaffe, te, mackor, bakverk och andra godsaker.",
-      "lat": "59.299867",
-      "lng": "18.079189",
-      "rating": 4.2,
-      "meals": []
-    },
     "Pasta Gudfadern": {
       "namn": "Pasta Gudfadern",
       "address": "Söderhallarna, 1 tr ned",
@@ -192,6 +192,16 @@
       "rating": 4.3,
       "meals": []
     },
+    "Sano Foodbar": {
+      "namn": "Sano Foodbar",
+      "address": "Gullmarsplan 1",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "vare sig du är på humör för att ta en fika, långlunch eller bara en nyttig ”grab & go” snacks så har vi försökt anpassa vårt erbjudande till alla.",
+      "lat": "59.298744",
+      "lng": "18.080155",
+      "rating": 3.8,
+      "meals": []
+    },
     "Seven Eleven": {
       "namn": "Seven Eleven",
       "address": "Gullmarsplan 2",
@@ -202,11 +212,11 @@
       "rating": 3.1,
       "meals": []
     },
-    "Srimoti": {
+    "Srimoti / Capital": {
       "namn": "Srimoti / Capital",
       "address": "Sköntorpsvägen 80",
       "sector": "Gullmarsplan & Årsta",
-      "description": "Välkommen till Srimoti i Årsta, vi är en indisk restaurang, med ett stort utbud av rätter som passar alla.",
+      "description": "Välkommen till Srimoti/Capital i Årsta, vi är en indisk restaurang, med ett stort utbud av rätter som passar alla.",
       "lat": "59.3000754",
       "lng": "18.0570561",
       "rating": 3.6,
@@ -226,7 +236,7 @@
       "namn": "Subway",
       "address": "Arenaslingan 3a",
       "sector": "Globen",
-      "description": "Kom in till oss på Subway när du är sugen på något gott till lunch. Vi har ett stort urval av fräscha subs och sallader.",
+      "description": "Vi finns även vid Skrapan och Ringvägen. Kom in till oss på Subway när du är sugen på något gott till lunch. Vi har ett stort urval av fräscha subs och sallader.",
       "lat": "59.292162",
       "lng": "18.082490",
       "rating": 3.8,
@@ -262,24 +272,24 @@
       "rating": 3.7,
       "meals": []
     },
-    "Södermanna vegetariska": {
-      "namn": "Södermanna veg.",
-      "address": "Medborgarplatsen 3-5",
-      "sector": "Medborgarplatsen",
-      "description": "Välkommen till Södermanna vegetariska. Hos oss hittar du bara ovo-lacto vegetariska och veganska maträtter. Lagat på plats för bästa möjliga smakupplevelse.",
-      "lat": "59.314521",
-      "lng": "18.070498",
-      "rating": 4.2,
-      "meals": []
-    },
     "Taco Bar": {
       "namn": "Taco Bar",
       "address": "Hammarby kaj 8A",
-      "sector": "Medborgarplatsen",
+      "sector": "Hammarby Sjöstad",
       "description": "Välkommna till Tacobar i Hammarby Sjöstad, vi har fötterna på varsin sida av gränsen mellan Texas och Mexico. Här har vi prisvärd och god mat.",
       "lat": "59.303213",
       "lng": "18.082257",
       "rating": 4.1,
+      "meals": []
+    },
+    "Tastory": {
+      "namn": "Tastory",
+      "address": "Johanneshovsvägen 3",
+      "sector": "Gullmarsplan & Årsta",
+      "description": "Välkommen till Tastory, Här erbjuder vi catering och en stor buffé där ni får välja mat själva.",
+      "lat": "59.301399",
+      "lng": "18.084145",
+      "rating": 3.4,
       "meals": []
     },
     "Trafiket": {
@@ -300,16 +310,6 @@
       "lat": "59.298680",
       "lng": "18.079829",
       "rating": 1.6,
-      "meals": []
-    },
-    "Viets kitchen": {
-      "namn": "Viets kitchen",
-      "address": "Söderhallarna, 1 tr ned",
-      "sector": "Medborgarplatsen",
-      "description": "Välkommen till Viets Kitchen, här hittar du orientaliska smaker av Vietnamn. Här finns allt från nudelsoppa och färska vårrullar till asiatisk sallad.",
-      "lat": "59.314737",
-      "lng": "18.070458",
-      "rating": 3.5,
       "meals": []
     },
     "Årsta kvarterskrog": {
